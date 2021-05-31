@@ -1,9 +1,9 @@
 public class App {
     
     public static void main(String[] args) {
-        System.out.println("toDo");
-
-
-
+        
+        Cat cat = new Cat();
+        System.out.println("Blick von aussen: " + cat);
+        cat.tellYourAdress();
     }
 }

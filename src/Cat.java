@@ -11,16 +11,24 @@ public class Cat {
         this.age = age;
     }
 
-    public void tellYourName(){
-        System.out.println("Blick von innen (Name): " + this.name);
-    }
-    
-    public void tellYourFurColor(){
-        System.out.println("Blick von innen (FurColor): " + this.furColor);
-    }
 
-    public void tellYourAge(){
-        System.out.println("Blick von innen (Age): " + this.age);
-    }
+    public void tellYourAttributes(String checkStr){
+        switch (checkStr) {
+            case "#name":
+            System.out.println("Name: " + this.name);
+                break;
 
+            case "#color":
+            System.out.println("furColor: " + this.furColor);
+                break;
+
+            case "#age":
+            System.out.println("Age: " + this.age);
+                break;
+
+            default:
+                System.out.println("Error");
+                break;
+        }
+    }
 }

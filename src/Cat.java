@@ -15,7 +15,7 @@ public class Cat {
     public void tellYourAttributes(String checkStr){
         switch (checkStr) {
             case "#name":
-            System.out.println("Name: " + this.name);
+            System.out.println("name: " + this.name);
                 break;
 
             case "#color":
@@ -23,11 +23,11 @@ public class Cat {
                 break;
 
             case "#age":
-            System.out.println("Age: " + this.age);
+            System.out.println("age: " + this.age);
                 break;
 
             default:
-                System.out.println("Error");
+                System.out.println("error");
                 break;
         }
     }

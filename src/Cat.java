@@ -11,16 +11,16 @@ public class Cat {
         this.age = age;
     }
 
-    public void tellYourAdress(){
-        System.out.println("Blick von innen: " + this);
-    }
-
     public void tellYourName(){
         System.out.println("Blick von innen (Name): " + this.name);
     }
+    
+    public void tellYourFurColor(){
+        System.out.println("Blick von innen (FurColor): " + this.furColor);
+    }
 
-    public void changeYourName(String name) {
-        this.name = name;
+    public void tellYourAge(){
+        System.out.println("Blick von innen (Age): " + this.age);
     }
 
 }

@@ -6,6 +6,9 @@ public class App {
         ausgabe("name: " + cat1.tellYourAttributes("#name"));
         ausgabe("color: " + cat1.tellYourAttributes("#color"));
         ausgabe("age: " + cat1.tellYourAttributes("#age"));
+        ausgabe("age: " + cat1.tellYourAttributes("#age"));
+        ausgabe("age: " + cat1.tellYourAttributes("#age"));
+        ausgabe("age: " + cat1.tellYourAttributes("#age"));
 
         ausgabe("-----------------------------------");
         

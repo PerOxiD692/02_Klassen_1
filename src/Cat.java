@@ -7,7 +7,7 @@ public class Cat {
     public boolean isFemale;
     
     // Interne Variablen
-    public int level;
+    private int level;
 
 
     public Cat(String name, String furColor, int age, boolean isFemale) {
@@ -37,7 +37,7 @@ public class Cat {
     }
 
 
-    public String checkCompliance() {
+    private String checkCompliance() {
 
         if (isFemale) {
             return this.checkEscalationLevel();
@@ -49,7 +49,7 @@ public class Cat {
     }
 
 
-    public String checkEscalationLevel() {
+    private String checkEscalationLevel() {
         // 1. --> "This is an inappropriate question!"
         // 2. --> "I've told you once!"
         // 3. --> "Talk to the hand!"
